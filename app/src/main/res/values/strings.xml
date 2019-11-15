@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VishalPatel_MAPD711_Assignment4</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="showroom_list">
+        <item >TOMMY HILFIGAR</item>
+        <item >BAY</item>
+        <item >REITMANS</item>
+        <item >ROOTS</item>
+    </string-array>
+</resources>
