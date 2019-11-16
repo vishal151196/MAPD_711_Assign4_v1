@@ -12,11 +12,13 @@ import android.widget.Toast;
 public class ShowroomList extends AppCompatActivity {
     ListView showroom_listview;
     ArrayAdapter<String> adapter;
-    private String showroom_array[] = getResources().getStringArray(R.array.showroom_list);
+    private String[] showroom_array;// = getResources().getStringArray(R.array.showroom_list);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_showroom_list);
+
+        showroom_array = getResources().getStringArray(R.array.showroom_list);
 
         showroom_listview = findViewById(R.id.showroom_list);
         adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, showroom_array);
