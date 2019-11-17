@@ -2,9 +2,17 @@
     <string name="app_name">VishalPatel_MAPD711_Assignment4</string>
     <string name="title_activity_maps">Map</string>
     <string-array name="showroom_list">
-        <item >TOMMY HILFIGAR</item>
-        <item >BAY</item>
-        <item >REITMANS</item>
-        <item >ROOTS</item>
+        <item>TOMMY HILFIGER</item>
+        <item>BAY</item>
+        <item>REITMANS</item>
+        <item>ROOTS</item>
+    </string-array>
+
+    <string-array name="showroom_location">
+        <item>North York</item>
+        <item>Toronto</item>
+        <item>Downtown</item>
+        <item>Scarborough</item>
+        <item>Oakville</item>
     </string-array>
 </resources>

@@ -2,6 +2,7 @@ package com.example.vishalpatel_mapd711_assignment4;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -12,7 +13,7 @@ import android.widget.Toast;
 public class ShowroomList extends AppCompatActivity {
     ListView showroom_listview;
     ArrayAdapter<String> adapter;
-    private String[] showroom_array;// = getResources().getStringArray(R.array.showroom_list);
+    private String[] showroom_array;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +28,8 @@ public class ShowroomList extends AppCompatActivity {
         showroom_listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getApplicationContext(), "item: " + position,Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplicationContext(),ShowroomLocation.class);
+                startActivity(intent);
             }
         });
 
