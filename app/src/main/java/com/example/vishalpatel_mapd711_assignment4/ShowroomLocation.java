@@ -28,7 +28,7 @@ public class ShowroomLocation extends AppCompatActivity {
         showroom_location_listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(getApplicationContext(),MapsActivity.class);
+                Intent intent = new Intent(getApplicationContext(),Map.class);
                 startActivity(intent);
             }
         });
