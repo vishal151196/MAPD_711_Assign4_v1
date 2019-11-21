@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">VishalPatel_MAPD711_Assignment4</string>
+    <string name="app_name">Canda Fashion Hub</string>
     <string name="title_activity_maps">Map</string>
     <string-array name="showroom_list">
         <item>TOMMY HILFIGER</item>
@@ -15,6 +15,11 @@
         <item>Scarborough</item>
         <item>Oakville</item>
     </string-array>
+    <string name="hilfiger">Tommy Hilfiger</string>
+    <string name="hudson">Hudson Bay</string>
+    <string name="reitmans">Reitmans</string>
+    <string name="root">Root</string>
+    <string name="Search">Search</string>
 
     <string name="search_hint">Enter Address, City or Zip Code</string>
 </resources>

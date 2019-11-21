@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/tommy_hilfiger"
+        android:layout_width="274dp"
+        android:layout_height="148dp"
+        android:contentDescription="@string/hilfiger"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/tommy_hilfiger" />
+    <ImageButton
+        android:id="@+id/hudson_bay"
+        android:layout_width="274dp"
+        android:layout_height="148dp"
+        android:contentDescription="@string/hudson"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/hudson_bay" />
+    <ImageButton
+        android:id="@+id/reitmans"
+        android:layout_width="274dp"
+        android:layout_height="148dp"
+        android:contentDescription="@string/reitmans"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/reitmans" />
+    <ImageButton
+        android:id="@+id/roots"
+        android:layout_width="274dp"
+        android:layout_height="148dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/root"
+        app:srcCompat="@drawable/roots" />
+
+</LinearLayout>
