@@ -10,7 +10,6 @@
 
     <string-array name="showroom_location">
         <item>North York</item>
-        <item>Toronto</item>
         <item>Downtown</item>
         <item>Scarborough</item>
         <item>Oakville</item>
